@@ -1,0 +1,17 @@
+2014/10/28
+1.导入项目的unitypackage引起错误时，会使编辑器异常。
+	详细：脚本中包含了UnityEngine.UI导致该版本中物体无法添加script。
+	当有异常时，不能给GameObject添加脚本组件
+【问题】
+2.如何导出unity编辑器的所有设置。
+
+2014/10/30
+【bug】
+1.导入一个预置体时，会创建、关联相应的Tag，但不会创建、关联响应的Layer
+
+2014/11/2
+1.用SetActive方法来控制物体的可见并不合适。因为之后该物体在线程上的所有活动都会终止。包括应该响应的事件（被其他函数调用的方法）
+2.NGUI中用findwithtag找UI元素会有麻烦，因为首先找到的是UIRoot。要使用GetComponentInChildren代替GetComponent。
+3.Perfabs绑定Component无效。
+4.【问题】当敌人死亡时，关闭了碰撞器，但依然射线能碰撞。
+5.载入场景尽量用数字，场景名字随着保存进步而改变。

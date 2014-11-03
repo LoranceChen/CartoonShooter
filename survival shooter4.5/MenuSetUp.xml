@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuSetUpSerialize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <backMusicVolume>0.491803348</backMusicVolume>
+  <efSoundVolume>0.8504099</efSoundVolume>
+  <difficultyLevel>3</difficultyLevel>
+</MenuSetUpSerialize>
