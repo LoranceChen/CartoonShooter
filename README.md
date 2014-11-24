@@ -1,18 +1,7 @@
-CartoonShooter
-=================
-The project is reorganized by Cell Pattern.
-        The Cell Pattern is meanings that every importent GameObject is a cell. 1.Cell communicating with another cell by Communicate Script and Direct Communicate Script.
-2.A cell have all of it's State Scripts and Controller Scripts.
-I have designed Manage Cell,Player Cell,Input Cell,Enemy Cell,Menu Cell to create the game.
-If you are interested in the design or have some suggestion,please send e-mail to
-------------w68055010@163.com----------And then,thanks you can read here.
+这个游戏根据unity官网的射击游戏进行的改编和扩展。
+主要内容：在原本的逻辑上重新组织了物体之间的关系，尝试加入了网络的功能，并使用NGUI代替UGUI。
 
-Some useful skill:
-1.Useing Singleton Pattern ensure XML message will be exist just one Class Instance.
+备注：先前上传过整个项目文件比较大而且功能并不完全。现在提供了截图可以让您来了解基本的游戏内容，这里也提供了所有脚本文件的源代码。
 
 
-
-
-
-Note:It may be some porblem with my English.
 
